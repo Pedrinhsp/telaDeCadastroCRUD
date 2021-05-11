@@ -229,7 +229,6 @@ public class ComputadorDAO {
             
             //Tenta estabeler a conexão com o SGBD e cria comando a ser executado conexão
             //Obs: A classe GerenciadorConexao já carrega o Driver e define os parâmetros de conexão
-            //conexao = GerenciadorConexao.abrirConexao();
             
             //Passo 1
             Class.forName("com.mysql.cj.jdbc.Driver");
